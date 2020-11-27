@@ -2,7 +2,9 @@ PREDICTING HOTEL ARRIVALS IN SWITZERLAND WITH GOOGLE TRENDS
 
 
 Abstract
-A 150 word description of the project idea, goals, datasets used. What's the motivation behind your project? How do you propose to extend the analysis from the paper? What story would you like to tell, and why? 
+A 150 word description of the project idea, goals, datasets used. What's the motivation behind your project? How do you propose to extend the analysis from the paper? What story would you like to tell, and why?
+
+The project goal is to show how google trends can improve the predictions of a model initialy based only on features monthly released. The idea is to point out how more recent datasets in time can be useful in better predicting near-future events; especially unusual events such as crisis. In our case, we will be focusing on Tourism in Switzerland. Our goal will be to show how google trends can sharpen our predictions in terms of arrivals at hotels in the country. We will first use official monthly released datas from the Federal Office of Statistics. We will then add Google Trends features to our model and see if these features could lead to a better enticipation of the covid 19 crisis. 
 
 Research Questions
 
@@ -24,10 +26,11 @@ Methods
 The methods used are similar to the ones introduced in the paper : “Predicting the Present with Google Trends”. Eventhough, the precise techniques are not explicitly given in the paper, we will apply the following :
 
 1 / Extract and pre-process the data
-2/ Test the correlation on the previous months to find which one should be used as features 
-3/  Build-up an autoregressive model using a rolling window (training on the previous months to predict 1 month ahead)
-4/ Test the correlation with different Google trends keys (like ‘Hotel’ , ‘Hotel booking’, or ‘Swiss lockdown’) to select which one to use as features
-5/ Compare model performances with and without Google Trends features
+2/ Correlation estimations on previous months to find the best parameters of our auto-regressive model (order, seasonality..)
+3/ Use a rolling window on our auto-regression model (training on the previous months to predict 1 month ahead)
+4/ Test the correlation with different Google trends keys (like ‘Hotel’ , ‘Hotel booking’, or ‘Swiss lockdown’) to select which one to use as additional features
+5/ Compare models performances with and without Google Trends features 
+6/ Conclude
 
 
 Proposed timeline
