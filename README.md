@@ -2,10 +2,8 @@ PREDICTING HOTEL ARRIVALS IN SWITZERLAND WITH GOOGLE TRENDS
 
 
 Abstract
-A 150 word description of the project idea, goals, datasets used. What's the motivation behind your project? How do you propose to extend the analysis from the paper? What story would you like to tell, and why?
 
-The project goal is to show how google trends can improve the predictions of a model initialy based only on features monthly released. The idea is to point out how more recent datasets in time can be useful in better predicting near-future events; especially unusual events such as crisis. In our case, we will be focusing on Tourism in Switzerland. Our goal will be to show how google trends can sharpen our predictions in terms of arrivals at hotels in the country. We will first use official monthly released datas from the Federal Office of Statistics. We will then add Google Trends features to our model and see if these features could lead to a better enticipation of the covid 19 crisis. 
-
+The project goal is to show whether or not google trends can improve the predictions of a model initially based only on features monthly released in the same way it is done in the paper : “Predicting the Present with Google Trends”. The idea is to point out how more recent datasets in time can be useful in better predicting near-future events; especially unusual events such as crisis. In our case, we will be focusing on Tourism in Switzerland. Our goal will be to show how google trends can sharpen our predictions in terms of arrivals at hotels in the country. We will first use official monthly released datas from the Federal Office of Statistics. We will then add Google Trends features to our model and see if these features could lead to a better anticipation of the covid 19 crisis.
 Research Questions
 
 This project must lead to answers to these questions
@@ -51,6 +49,5 @@ Antoine : writing, video shooting, editing the video
 Clément : Setting up a website
 Vincent & Xavier : writing the story
 
-Questions for TAs (optional)
-Add here any questions you have for us related to the proposed project.
+
 
